@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="kr.co.koscom.olympus.pb.aps.sw.mm.q002.Swmmq002Mapper">
 
-	<select id="q002List"><![CDATA[
+	<select id="q002List" resultType="kr.co.koscom.olympus.pb.aps.sw.mm.q002.Swmmq002QryOut"><![CDATA[
 	SELECT ISU_NO               ISU_NO
 	     , SRT_DT               SRT_DT
 	     , END_DT               END_DT
@@ -18,7 +18,7 @@
   /* ORDER BY ISU_NO, SRT_DT */
 	]]></select>
 
-	<select id="x002List"><![CDATA[
+	<select id="x002List" resultType="kr.co.koscom.olympus.pb.aps.sw.mm.q002.Swmmq002QryOut"><![CDATA[
 	SELECT ISU_NO               ISU_NO
 	     , SRT_DT               SRT_DT
 	     , END_DT               END_DT
