@@ -1,0 +1,277 @@
+{
+  "openapi": "3.0.0",
+  "info": { "title": "pb", "version": "1.0.0" },
+  "servers": [ { "url": "http://localhost:8080" } ],
+  "paths": {
+    "/HTS": {
+      "post": {
+        "summary": "DemoController.helloMap",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/Hello": {
+      "post": {
+        "summary": "DemoController.hello",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/HelloArray": {
+      "post": {
+        "summary": "DemoController.helloArray",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/HelloList": {
+      "post": {
+        "summary": "DemoController.helloList",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/HelloMap": {
+      "post": {
+        "summary": "DemoController.helloMap",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/Swmmq002": {
+      "post": {
+        "summary": "Swmmq002Controller.q002List",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/Swmmx002": {
+      "post": {
+        "summary": "Swmmq002Controller.q002List",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/a1": {
+      "post": {
+        "summary": "AAController.a1",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/insertOrupdate": {
+      "post": {
+        "summary": "FlexController.insert1",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/onTblSpotOrd/getInfo/{id}": {
+      "get": {
+        "summary": "OnTblSpotOrdController.getInfo",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/onTblSpotOrd/list": {
+      "get": {
+        "summary": "OnTblSpotOrdController.list",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/onTblSpotOrd/page": {
+      "get": {
+        "summary": "OnTblSpotOrdController.page",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/onTblSpotOrd/procedure": {
+      "post": {
+        "summary": "OnTblSpotOrdController.procedure",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/onTblSpotOrd/remove/{id}": {
+      "delete": {
+        "summary": "OnTblSpotOrdController.remove",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/onTblSpotOrd/save": {
+      "post": {
+        "summary": "OnTblSpotOrdController.save",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/onTblSpotOrd/update": {
+      "put": {
+        "summary": "OnTblSpotOrdController.update",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/page": {
+      "post": {
+        "summary": "ProductController.page",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pb/gw/json": {
+      "post": {
+        "summary": "PBGatewayController.json",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pb/page/page01": {
+      "post": {
+        "summary": "PBPageController.page01",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pb/page/page02": {
+      "post": {
+        "summary": "PBPageController.page02",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pb/page/page03": {
+      "post": {
+        "summary": "PBPageController.page03",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pb/st/ord": {
+      "post": {
+        "summary": "PBOrdStController.ord",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pb/text/t1": {
+      "post": {
+        "summary": "TestController.test1",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pb/text/t2": {
+      "post": {
+        "summary": "TestController.test2",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pb/vue/list": {
+      "post": {
+        "summary": "VueTestController.list",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pb/vue/order": {
+      "post": {
+        "summary": "VueTestController.order",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pb3": {
+      "post": {
+        "summary": "FlexController.pb3",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pb4": {
+      "post": {
+        "summary": "FlexController.pb4",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pbx1": {
+      "post": {
+        "summary": "FlexController.pbx1",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/pbx2": {
+      "post": {
+        "summary": "FlexController.pbx2",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/remove": {
+      "post": {
+        "summary": "ProductController.remove",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/save": {
+      "post": {
+        "summary": "ProductController.save",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/tenant/getInfo/{id}": {
+      "get": {
+        "summary": "TenantController.getInfo",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/tenant/list": {
+      "get": {
+        "summary": "TenantController.list",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/tenant/page": {
+      "get": {
+        "summary": "TenantController.page",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/tenant/remove/{id}": {
+      "delete": {
+        "summary": "TenantController.remove",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/tenant/save": {
+      "post": {
+        "summary": "TenantController.save",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/tenant/update": {
+      "put": {
+        "summary": "TenantController.update",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/test001/getInfo/{id}": {
+      "get": {
+        "summary": "Test001Controller.getInfo",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/test001/list": {
+      "get": {
+        "summary": "Test001Controller.list",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/test001/page": {
+      "post": {
+        "summary": "Test001Controller.page",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/test001/remove/{id}": {
+      "delete": {
+        "summary": "Test001Controller.remove",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/test001/save": {
+      "post": {
+        "summary": "Test001Controller.save",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/test001/update": {
+      "put": {
+        "summary": "Test001Controller.update",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/trd": {
+      "post": {
+        "summary": "PB_ON_TRD_Controllder.trd",
+        "responses": { "200": { "description": "OK" } }
+      }
+    }
+  }
+}
