@@ -8,11 +8,11 @@ import java.util.regex.Pattern;
 
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
 import org.jasypt.salt.RandomSaltGenerator;
+import org.jspecify.annotations.NullMarked;
 import org.springframework.boot.SpringApplication;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.MutablePropertySources;
 import org.springframework.core.env.PropertySource;
-import org.springframework.lang.NonNull;
 
 public class PBEnvironmentPostProcessor  {
 
@@ -44,7 +44,7 @@ public class PBEnvironmentPostProcessor  {
 		if (!map.isEmpty()) {
 			PropertySource p = new PropertySource<Map<Object, Object>>("PB_ENC", map) {
 				@Override
-				public Object getProperty(String name) {
+				public @NullMarked Object getProperty(String name) {
 					return source.get(name);
 				}
 			};
