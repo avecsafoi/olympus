@@ -44,7 +44,7 @@ public class PBEnvironmentPostProcessor  {
 		if (!map.isEmpty()) {
 			PropertySource p = new PropertySource<Map<Object, Object>>("PB_ENC", map) {
 				@Override
-				public Object getProperty(@NonNull String name) {
+				public Object getProperty(String name) {
 					return source.get(name);
 				}
 			};
